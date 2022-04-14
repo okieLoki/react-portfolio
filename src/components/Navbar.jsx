@@ -12,7 +12,7 @@ function Navbar() {
     }
     return (
         <>
-            <div className='fixed w-full h-[75px] flex justify-between items-center px-3 bg-black text-white'>
+            <div className='fixed w-full h-[75px] flex justify-between items-center px-3 bg-transparent text-white'>
                 {/* navbar logo */}
                 <div>
                     <img src={Logo} alt="Logo" style={{ width: '50px' }} />
